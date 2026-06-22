@@ -1,0 +1,60 @@
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn deprecated next@14.2.5: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/security-update-2025-12-11 for more details.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\D:\\projest\\StartProces\\node_modules\\@builder.io',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'D:\projest\StartProces\node_modules\@builder.io\react\dist\types\test\functions'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'D:\\projest\\StartProces\\node_modules\\@builder.io\\react\\dist\\types\\test\\functions'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path D:\projest\StartProces\node_modules\isolated-vm
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c prebuild-install || (node-gyp rebuild --release -j max && node-gyp clean)
+npm error prebuild-install warn install No prebuilt binaries found (target=26.3.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@12.3.0
+npm error gyp info using node@26.3.1 | win32 | x64
+npm error gyp info find Python using Python version 3.14.6 found at "C:\Users\eswar\AppData\Local\Python\pythoncore-3.14-64\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS --msvs_version was not set on the command line
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release" "-j" "max"
+npm error gyp ERR! cwd D:\projest\StartProces\node_modules\isolated-vm
+npm error gyp ERR! node -v v26.3.1
+npm error gyp ERR! node-gyp -v v12.3.0
+npm error gyp ERR! $npm_package_name isolated-vm
+npm error gyp ERR! $npm_package_version 5.0.4
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eswar\AppData\Local\npm-cache\_logs\2026-06-22T02_27_17_064Z-debug-0.log
