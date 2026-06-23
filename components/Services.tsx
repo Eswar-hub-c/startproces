@@ -27,6 +27,13 @@ const services = [
     desc: 'Custom CRM and ERP portals engineered to streamline HR, Billing, Inventory, and specialized sector management.',
     items: ['Custom CRM Portals', 'Custom ERP Portals', 'Billing & Invoicing Software'],
   },
+  {
+    icon: 'fa fa-shield',
+    color: '#b88dfd',
+    title: 'CYBER\nSECURITY',
+    desc: 'WEB STESTING, PENETRATION TESTING, VAPT, NETWORK SECURITY, APPLICATION SECURITY, CLOUD SECURITY, AND MORE.',
+    items: ['APPLICATION SECURITY', 'WEB STESTING', 'VAPT & Penetration Testing'],
+  },
   
 ]
 
