@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Start Process – AI-Integrated Apps & SaaS Platforms',
+  icons: '/images/logos.png',
+  title: 'Start Process – Innovent. Build. Grow',
   description:
     'Start Process: a premium digital product studio delivering modern websites, software systems, and growth solutions for startups and businesses.',
 }
