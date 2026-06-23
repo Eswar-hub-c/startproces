@@ -5,7 +5,7 @@ const companyLinks = [
   { label: 'Pricing', href: '#pricing' },
   { label: 'Contact', href: '#contact' },
 ]
-const socials = [
+const Socials = [
   { icon: 'fab fa-instagram', href: 'https://www.instagram.com/startprocess?igsh=MTE1NG5xdjh6OGwxdg==', label: 'Instagram' },
   { icon: 'fab fa-linkedin-in', href: 'https://www.linkedin.com/company/startprocess', label: 'LinkedIn' },
   { icon: 'fab fa-youtube', href: 'https://www.youtube.com/@StartProcess', label: 'YouTube' },
@@ -25,7 +25,7 @@ export default function Footer() {
             that don&apos;t settle for average.
           </p>
           <div className="footer-social">
-            {socials.map((s) => (
+            {Socials.map((s) => (
               <a key={s.label} href={s.href} aria-label={s.label}>
                 <i className={s.icon} />
               </a>
