@@ -4,8 +4,8 @@ import { useState } from 'react'
 import type { FormEvent, ChangeEvent } from 'react'
 
 const channels = [
-  { bg: '#E0E7FF', iconClass: 'fas fa-envelope', iconColor: '#4F39F6', label: 'Email Studio', value: 'startproces@gmail.com', href: 'mailto:startproces@gmail.com' },
-  { bg: '#D0FAE5', iconClass: 'fab fa-whatsapp', iconColor: '#096', label: 'WhatsApp Express', value: '+91 33333 333 33', href: 'https://wa.me/913333333333' },
+  { bg: '#E0E7FF', iconClass: 'fas fa-envelope', iconColor: '#4F39F6', label: 'Email Studio', value: 'contact@startproces.com', href: 'mailto:contact@startproces.com' },
+  { bg: '#D0FAE5', iconClass: 'fab fa-whatsapp', iconColor: '#096', label: 'WhatsApp Express', value: '+916281289228', href: 'https://wa.me/916281289228' },
   { bg: '#CEFAFE', iconClass: 'fas fa-map-marker-alt', iconColor: '#0092B8', label: 'Studio Location', value: 'India | Global Operations', href: null },
 ]
 

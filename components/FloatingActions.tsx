@@ -2,7 +2,7 @@ export default function FloatingActions() {
   return (
     <div className="floating-actions">
       <a
-        href="https://+91 6281289228"
+        href="https://wa.me/916281289228"
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-btn"
