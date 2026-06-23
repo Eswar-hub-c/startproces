@@ -22,7 +22,7 @@
   --color-white: #FFF;
   --color-glass-bg: rgba(2, 15, 37, 0.70);
   --color-glass-border: rgba(255, 255, 255, 0.08);
-  --gradient-cyan-blue: linear-gradient(135deg, #06B6D4 0%, #3B82F6 100%);
+  --gradient-cyan-blue: linear-gradient(135deg, #FFA500 0%, #e76d2c 100%);
 
   --font-body: 'Plus Jakarta Sans', -apple-system, Roboto, Helvetica, sans-serif;
 
@@ -74,7 +74,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .floating-actions {
   position: fixed;
   left: 24px;
-  top: 50%;
+  top: 75%;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
@@ -137,10 +137,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   align-items: center;
   gap: 40px;
 }
-
+.nav-logo-image{
+  width: 200px;
+  height: 50px;
+}
 .nav-logo { font-size: 20px; font-weight: 700; }
-.logo-quick { color: var(--color-white); }
-.logo-developers { color: var(--color-cyan); }
+.logo-start{ color: var(--color-white); }
+.logo-process { color: var(--color-cyan); }
 
 .nav-links {
   display: flex;
@@ -667,7 +670,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .timeline-step { display: flex; align-items: center; margin-bottom: 80px; }
-.timeline-step--right { flex-direction: row-reverse; }
+.timeline-step--right { flex-direction: row; }
 
 .timeline-content { flex: 1; padding-right: 80px; display: flex; flex-direction: column; gap: 16px; }
 .timeline-content--right { padding-right: 0; padding-left: 80px; }
@@ -1032,6 +1035,7 @@ a.contact-channel-value:hover { color: var(--color-cyan); }
   .footer-container { grid-template-columns: 1fr; }
   .footer-bottom { padding: 24px; }
   .hero-actions { flex-direction: column; align-items: center; }
+  .social-btn { display: none; }
 }
 
 @media (max-width: 480px) {
@@ -1094,6 +1098,12 @@ a.contact-channel-value:hover { color: var(--color-cyan); }
   background: rgba(2,15,37,.97);
   border-top: 1px solid rgba(255,255,255,.06);
   padding: 16px 24px 24px;
+}
+
+.mobile-social-links {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
 }
 
 .mobile-nav-links {

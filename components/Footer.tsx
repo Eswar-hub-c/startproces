@@ -6,10 +6,9 @@ const companyLinks = [
   { label: 'Contact', href: '#contact' },
 ]
 const socials = [
-  { icon: 'fab fa-facebook-f', href: '#', label: 'Facebook' },
-  { icon: 'fab fa-instagram', href: '#', label: 'Instagram' },
-  { icon: 'fab fa-linkedin-in', href: '#', label: 'LinkedIn' },
-  { icon: 'fab fa-youtube', href: '#', label: 'YouTube' },
+  { icon: 'fab fa-instagram', href: 'https://www.instagram.com/startprocess?igsh=MTE1NG5xdjh6OGwxdg==', label: 'Instagram' },
+  { icon: 'fab fa-linkedin-in', href: 'https://www.linkedin.com/company/startprocess', label: 'LinkedIn' },
+  { icon: 'fab fa-youtube', href: 'https://www.youtube.com/@StartProcess', label: 'YouTube' },
 ]
 
 export default function Footer() {
@@ -18,8 +17,8 @@ export default function Footer() {
       <div className="footer-container">
         <div className="footer-brand">
           <a href="#home" className="footer-logo">
-            <span className="logo-quick">Start</span>
-            <span className="logo-developers">Process</span>
+            <span className="logo-Start">Start</span>
+            <span className="logo-Process">Process</span>
           </a>
           <p className="footer-tagline">
             Premium digital studio crafting scalable web, mobile, and AI solutions for businesses
@@ -55,15 +54,15 @@ export default function Footer() {
         <div className="footer-links-col">
           <h5>Contact</h5>
           <ul>
-            <li><a href="mailto:startproces@gmail.com">startproces@gmail.com</a></li>
-            <li><a href="https://wa.me/913333333333">+91 33333 333 33</a></li>
+            <li><a href="mailto:Contact@startprocess.in">Contact@startprocess.in</a></li>
+            <li><a href="https://wa.me/+91 6281 289 228">+91 6281 289 228</a></li>
             <li><span>India | Global Operations</span></li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2025 Start Process. All rights reserved.</p>
+        <p>&copy; 2026 Start Process. All rights reserved.</p>
       </div>
     </footer>
   )

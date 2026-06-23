@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 const navLinks = [
@@ -9,6 +10,12 @@ const navLinks = [
   { label: 'Pricing', href: '#pricing' },
   { label: 'Contact', href: '#contact' },
 ]
+const socials = [
+  { icon: 'fab fa-instagram', href: 'https://www.instagram.com/startprocess?igsh=MTE1NG5xdjh6OGwxdg==', label: 'Instagram' },
+  { icon: 'fab fa-linkedin-in', href: 'https://www.linkedin.com/company/startprocess', label: 'LinkedIn' },
+  { icon: 'fab fa-youtube', href: 'https://www.youtube.com/@StartProcess', label: 'YouTube' },
+]
+
 
 /**
  * Sticky top navigation bar.
@@ -35,10 +42,9 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <a href="#home" className="nav-logo">
-          <span className="logo-quick">Start</span>
-          <span className="logo-developers">Process</span>
-        </a>
+        <a href="#home" className="nav-logo-image"> 
+          <img src="images/startprocess.png" alt="Start Process Logo" width={100} height={50} />
+          </a>
 
         {/* Desktop links */}
         <ul className="nav-links">
@@ -47,7 +53,13 @@ export default function Navbar() {
               <a href={link.href}>{link.label}</a>
             </li>
           ))}
+          {socials.map((s) => (
+          <a key={s.label} href={s.href} aria-label={s.label}>
+            <i className={s.icon} />
+          </a>
+        ))}
         </ul>
+
 
         <a href="#contact" className="nav-cta nav-cta--desktop">
           Start Project
@@ -76,6 +88,13 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
+          <div className="mobile-social-links">
+            {socials.map((s) => (
+              <a key={s.label} href={s.href} aria-label={s.label} onClick={handleLinkClick}>
+                <i className={s.icon} />
+              </a>
+            ))}
+          </div>
           <a href="#contact" className="btn-primary mobile-cta" onClick={handleLinkClick}>
             Start Project
           </a>

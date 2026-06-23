@@ -17,6 +17,7 @@ const socials = [
 ]
 
 const serviceOptions = [
+  'cybersecurity [WEB VAPT]',
   'Web Development',
   'Mobile App',
   'E-Commerce',
