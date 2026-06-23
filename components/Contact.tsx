@@ -10,8 +10,7 @@ const channels = [
 ]
 
 const socials = [
-  { label: 'Facebook', icon: 'fab fa-facebook-f', href: '#' },
-  { label: 'Instagram', icon: 'fab fa-instagram', href: '#' },
+  { label: 'Instagram', icon: 'fab fa-instagram', href: 'https://www.instagram.com/startprocess?igsh=MTE1NG5xdjh6OGwxdg==' },
   { label: 'LinkedIn', icon: 'fab fa-linkedin-in', href: '#' },
   { label: 'YouTube', icon: 'fab fa-youtube', href: '#' },
 ]
