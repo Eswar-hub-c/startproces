@@ -99,8 +99,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .ai-assistant-btn {
   display: flex;
-  width: 64px;
-  height: 64px;
+  width: 56px;
+  height: 56px;
   justify-content: center;
   align-items: center;
   border-radius: var(--radius-pill);
@@ -122,10 +122,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   top: 0;
   left: 0;
   right: 0;
+  border-radius: 55px;
   z-index: 100;
   background: rgba(2,15,37,.92);
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(255,255,255,.06);
+  border-bottom: 3.5px solid rgba(255,255,255,.06);
 }
 
 .nav-container {

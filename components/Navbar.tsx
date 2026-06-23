@@ -43,7 +43,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="nav-container">
         <a href="#home" className="nav-logo-image"> 
-          <img src="images/startprocess.png" alt="Start Process Logo" width={100} height={50} />
+          <img src="images/startprocess.png" alt="Start Process Logo" width={143} height={50} />
           </a>
 
         {/* Desktop links */}
