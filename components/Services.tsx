@@ -28,7 +28,7 @@ const services = [
     items: ['Custom CRM Portals', 'Custom ERP Portals', 'Billing & Invoicing Software'],
   },
   {
-    icon: 'fa-shield',
+    icon: 'fa fa-shield',
     color: '#9c5fff',
     title: 'CYBER\nSECURITY',
     desc: 'WEB STESTING, PENETRATION TESTING, VAPT, NETWORK SECURITY, APPLICATION SECURITY, CLOUD SECURITY, AND MORE.',
