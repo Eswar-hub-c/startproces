@@ -1,3 +1,5 @@
+import { FaShieldAlt } from 'react-icons/fa';
+
 const services = [
   {
     icon: 'fa-globe',
@@ -28,12 +30,18 @@ const services = [
     items: ['Custom CRM Portals', 'Custom ERP Portals', 'Billing & Invoicing Software'],
   },
   {
-    icon: 'fa fa-shield',
-    color: '#b88dfd',
-    title: 'CYBER\nSECURITY',
-    desc: 'WEB STESTING, PENETRATION TESTING, VAPT, NETWORK SECURITY, APPLICATION SECURITY, CLOUD SECURITY, AND MORE.',
-    items: ['APPLICATION SECURITY', 'WEB STESTING', 'VAPT & Penetration Testing'],
-  },
+  icon: <FaShieldAlt />,
+  color: '#b88dfd',
+  title: 'CYBER\nSECURITY',
+  desc: 'PROTECT YOUR BUSINESS WITH ADVANCED CYBERSECURITY SOLUTIONS INCLUDING VAPT, WEB APPLICATION TESTING, NETWORK SECURITY, CLOUD SECURITY, AND APPLICATION SECURITY.',
+  items: [
+    'VAPT & PENETRATION TESTING',
+    'WEB APPLICATION SECURITY',
+    'NETWORK SECURITY',
+    'CLOUD SECURITY',
+    'APPLICATION SECURITY'
+  ],
+}
   
 ]
 
