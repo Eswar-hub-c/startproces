@@ -30,7 +30,7 @@ const services = [
     items: ['Custom CRM Portals', 'Custom ERP Portals', 'Billing & Invoicing Software'],
   },
   {
-  icon: <FaShieldAlt />,
+  icon: 'fa-shield-alt',
   color: '#b88dfd',
   title: 'CYBER\nSECURITY',
   desc: 'PROTECT YOUR BUSINESS WITH ADVANCED CYBERSECURITY SOLUTIONS INCLUDING VAPT, WEB APPLICATION TESTING, NETWORK SECURITY, CLOUD SECURITY, AND APPLICATION SECURITY.',
