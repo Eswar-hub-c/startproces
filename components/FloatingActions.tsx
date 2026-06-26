@@ -10,9 +10,15 @@ export default function FloatingActions() {
       >
         <i className="fab fa-whatsapp" />
       </a>
-      <button className="ai-assistant-btn" aria-label="Open AI Assistant">
-        <i className="fas fa-robot" />
-      </button>
+      <a
+  href="https://www.instagram.com/startprocess?igsh=MTE1NG5xdjh6OGwxdg%3D%3D"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="instagram-btn"
+  aria-label="Follow us on Instagram"
+      >
+        <i className="fab fa-instagram" />
+      </a>
     </div>
   )
 }

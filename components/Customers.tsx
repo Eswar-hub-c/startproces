@@ -10,18 +10,18 @@ const allLogos = [...logos, ...logos]
 
 export default function Customers() {
   return (
-    <section className="customers-section">
+    {/* <section className="customers-section">
       <p className="customers-label">Our Premium Customers</p>
       <div className="marquee-wrapper">
         <div className="marquee-track">
           {allLogos.map((logo, i) => (
             <div key={i} className="marquee-item">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
+               eslint-disable-next-line @next/next/no-img-element --COMMENTED OUT FOR NOW
               <img src={logo.src} alt={logo.alt} />
             </div>
           ))}
         </div>
       </div>
-    </section>
+    </section>*/}
   )
 }

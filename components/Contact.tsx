@@ -11,8 +11,8 @@ const channels = [
 
 const socials = [
   { label: 'Instagram', icon: 'fab fa-instagram', href: 'https://www.instagram.com/startprocess?igsh=MTE1NG5xdjh6OGwxdg==' },
-  { label: 'LinkedIn', icon: 'fab fa-linkedin-in', href: '#' },
-  { label: 'YouTube', icon: 'fab fa-youtube', href: '#' },
+  { label: 'LinkedIn', icon: 'fab fa-linkedin-in', href: 'https://www.linkedin.com/in/start-process-1a2081418/?skipRedirect=true'},
+  { label: 'YouTube', icon: 'fab fa-youtube', href: 'https://www.youtube.com/@startprocess-tech' },
 ]
 
 const serviceOptions = [

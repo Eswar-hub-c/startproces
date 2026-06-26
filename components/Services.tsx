@@ -41,7 +41,37 @@ const services = [
     'CLOUD SECURITY',
     'APPLICATION SECURITY'
   ],
-}
+},
+  {
+    icon: 'fa-bullhorn',
+    color: '#0092B8',
+    title: 'Digital Marketing & Growth',
+    desc: 'SEO, Ads, and Data-driven marketing strategies to drastically increase your brand visibility, leads, and conversions.',
+    items: ['Website SEO & Google Profile', 'Meta & Google Ads Campaigns', 'Performance Marketing Strategy'],
+  },
+  {
+    icon: 'fa-palette',
+    color: '#4F39F6',
+    title: 'Design & Creative Services',
+    desc: 'Premium visual creatives, logo/brand identity, UI/UX, and motion graphics that strengthen your brand.',
+    items: ['UI/UX Design', 'Logo Design & Brand Identity', 'Video Editing & Animation'],
+  },
+  {
+  icon: 'fa-chart-line',
+  color: '#FF6B35',
+  title: 'Performance Marketing',
+  desc: 'Data-driven marketing strategies focused on maximizing ROI through paid advertising, analytics, and continuous campaign optimization.',
+  items: [
+    'Google Ads (PPC)',
+    'Meta Ads (Facebook & Instagram)',
+    'LinkedIn Ads',
+    'YouTube Advertising',
+    'Lead Generation Funnels',
+    'Conversion Rate Optimization (CRO)',
+    'Analytics & Performance Tracking',
+    'Remarketing & Retargeting'
+  ],
+},
   
 ]
 

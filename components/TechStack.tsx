@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-const tabs = ['Web Platform & Mobile Apps', 'Databases', 'Cloud & DevOps', 'UI/UX']
+const tabs = ['Web Platform & Mobile Apps', 'Databases', 'Cloud & DevOps', 'UI/UX', 'Cybersecurity']
 
 const techByTab: Record<string, { icon: string; label: string; color?: string; text?: string }[]> = {
   'Web Platform & Mobile Apps': [
@@ -38,6 +38,18 @@ const techByTab: Record<string, { icon: string; label: string; color?: string; t
     { icon: 'fas fa-drafting-compass', label: 'Framer', color: '#0055FF' },
     { icon: 'fas fa-magic', label: 'GSAP', color: '#88CE02' },
   ],
+  'Cybersecurity': [
+  { icon: 'fab fa-linux', label: 'Kali Linux', color: '#557C94' },
+  { icon: 'fas fa-bug', label: 'Burp Suite', color: '#F26C21' },
+  { icon: 'fas fa-network-wired', label: 'Nmap', color: '#7B1FA2' },
+  { icon: 'fas fa-search', label: 'Subfinder', color: '#00C853' },
+  { icon: 'fas fa-database', label: 'SQLMap', color: '#1976D2' },
+  { icon: 'fas fa-project-diagram', label: 'Maltego', color: '#00ACC1' },
+  { icon: 'fas fa-globe', label: 'Amass', color: '#FF7043' },
+  { icon: 'fas fa-terminal', label: 'Metasploit', color: '#1565C0' },
+  { icon: 'fas fa-shield-alt', label: 'OWASP ZAP', color: '#4CAF50' },
+  { icon: 'fas fa-user-secret', label: 'Wireshark', color: '#00599C' },
+],
 }
 
 export default function TechStack() {

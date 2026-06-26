@@ -12,8 +12,8 @@ const navLinks = [
 ]
 const socials = [
   { icon: 'fab fa-instagram', href: 'https://www.instagram.com/startprocess?igsh=MTE1NG5xdjh6OGwxdg==', label: 'Instagram' },
-  { icon: 'fab fa-linkedin-in', href: 'https://www.linkedin.com/company/startprocess', label: 'LinkedIn' },
-  { icon: 'fab fa-youtube', href: 'https://www.youtube.com/@StartProcess', label: 'YouTube' },
+  { icon: 'fab fa-linkedin-in', href: 'https://www.linkedin.com/in/start-process-1a2081418/?skipRedirect=true', label: 'LinkedIn' },
+  { icon: 'fab fa-youtube', href: 'https://www.youtube.com/@startprocess-tech', label: 'YouTube' },
 ]
 
 

@@ -20,10 +20,10 @@ export default function Home() {
       <main>
         <Hero />
         <Trust />
-        <Customers />
+        {/* <Customers /> */}
         <Services />
         <TechStack />
-        <GrowthCreative />
+        {/* <GrowthCreative /> */}
         <Journey />
         <Pricing />
         <FAQ />
